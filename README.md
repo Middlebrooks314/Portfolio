@@ -6,4 +6,5 @@
 * superslides
 * bootstrap
 * Typed.js
+* owlCarousel.js
 
