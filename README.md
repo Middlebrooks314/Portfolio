@@ -5,3 +5,5 @@
 * jQuery
 * superslides
 * bootstrap
+* Typed.js
+
