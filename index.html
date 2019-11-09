@@ -12,19 +12,28 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
+    <!-- Photo Slides - Intro -->
     <div id="slides">
       <div class="overlay"></div>
 
       <div class="slides-container">
-        <img src="img/slide1.jpg" alt="" />
-        <img src="img/slide2.jpg" alt="" />
-        <img src="img/slide3.jpg" alt="" />
+        <img
+          src="img/slide1.jpg"
+          alt="Computer with camera and notebook photo"
+        />
+        <img src="img/slide2.jpg" alt="Stylish female hands with coffee" />
+        <img
+          src="img/slide3.jpg"
+          alt="Chicago cityscape overlooking the river"
+        />
       </div>
 
+      <!-- Name and Typing Titles -->
       <div class="titleMessage">
         <div class="heading">
           <p class="main">MALISA MIDDLEBROOKS</p>
@@ -32,12 +41,15 @@
         </div>
       </div>
 
+      <!-- Nav buttons on Photo Slides -->
       <nav class="slides-navigation">
         <a href="#" class="next"></a>
         <a href="#" class="prev"></a>
       </nav>
     </div>
 
+    <!-- About me section -->
+    <!-- Headshot -->
     <div id="about" class="section">
       <div class="container">
         <div class="row">
@@ -48,15 +60,96 @@
               alt="Malisa headshot"
             />
           </div>
+          <!-- About me - Paragraphs -->
           <div class="col-md-7">
             <h4>My name is Malisa Middlebrooks</h4>
-            <p>Donut chupa chups sesame snaps brownie lemon drops brownie jelly beans powder. Soufflé bonbon dragée. Croissant cookie dessert brownie jujubes lollipop sweet icing brownie. Icing caramels oat cake tootsie roll marshmallow topping jujubes cake. Liquorice gummi bears sesame snaps cotton candy pie jelly. Lollipop lemon drops chocolate tart gummi bears cake pudding biscuit. Gummies jelly-o jelly jelly-o brownie croissant.</p>
-            <p>Sesame snaps fruitcake cotton candy ice cream sugar plum marshmallow. Danish macaroon halvah topping cotton candy caramels powder. Jujubes pie cheesecake. Jujubes brownie chocolate cake candy canes pastry. Danish tiramisu soufflé sweet roll. Chocolate bar toffee toffee halvah. Cookie fruitcake cheesecake donut sugar plum dessert toffee.</p>
+            <p>
+              Donut chupa chups sesame snaps brownie lemon drops brownie jelly
+              beans powder. Soufflé bonbon dragée. Croissant cookie dessert
+              brownie jujubes lollipop sweet icing brownie. Icing caramels oat
+              cake tootsie roll marshmallow topping jujubes cake. Liquorice
+              gummi bears sesame snaps cotton candy pie jelly. Lollipop lemon
+              drops chocolate tart gummi bears cake pudding biscuit. Gummies
+              jelly-o jelly jelly-o brownie croissant.
+            </p>
+            <p>
+              Sesame snaps fruitcake cotton candy ice cream sugar plum
+              marshmallow. Danish macaroon halvah topping cotton candy caramels
+              powder. Jujubes pie cheesecake. Jujubes brownie chocolate cake
+              candy canes pastry. Danish tiramisu soufflé sweet roll. Chocolate
+              bar toffee toffee halvah. Cookie fruitcake cheesecake donut sugar
+              plum dessert toffee.
+            </p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Skills carousel -->
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Languages</h2>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <canvas height="152" width="152"></canvas>
+              <div class="icon">
+                <img src="img/icons/javascript.png" alt="" />
+              </div>
+              <h4>Javascript</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+            <div class="skill">
+              <canvas height="152" width="152"></canvas>
+              <div class="icon">
+                <img src="img/icons/ruby.png" alt="" />
+              </div>
+              <h4>Ruby</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+            <div class="skill">
+              <canvas height="152" width="152"></canvas>
+              <div class="icon">
+                <img src="img/icons/bootstrapLogo.png" alt="" />
+              </div>
+              <h4>Ruby on Rails</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+            <div class="skill">
+              <canvas height="152" width="152"></canvas>
+              <div class="icon">
+                <img src="img/icons/react.png" alt="" />
+              </div>
+              <h4>React</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+            <div class="skill">
+              <canvas height="152" width="152"></canvas>
+              <div class="icon">
+                <img src="img/icons/redux.png" alt="" />
+              </div>
+              <h4>Redux</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+            <div class="skill">
+              <canvas height="152" width="152"></canvas>
+              <div class="icon">
+                <img src="img/icons/SQL.png" alt="" />
+              </div>
+              <h4>SQL</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="css/owl.carousel.min.css"></script>
     <script src="js/typed.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
