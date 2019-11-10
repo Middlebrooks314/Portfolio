@@ -70,7 +70,8 @@ body {
     max-width: 100%;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection {
     background-color: #75e6da;
     color: #333;
 
@@ -94,4 +95,71 @@ body {
   margin: 0 auto;
   height: 100px;
   width: 100px;
+}
+
+.contactButton {
+  color: #333;
+  font-weight: 500;
+  display: inline-block;
+  background-color: white;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #75e6da;
+  background-color: #333;
+  border: 5px solid white;
+}
+
+.filter a {
+  color: #bdc3c7;
+  border: 1px solid #bdc3c7;
+  padding: 10px 18px;
+  display: block;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current {
+  background-color: #75e6da;
+  border-color: #75e6da;
+  color: #333;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.items li {
+  display: inline-block;
+  padding: 5px;
+
+}
+
+.itemsContainer {
+  width: 100%;
+}
+
+.items li img {
+  width: 100%;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
 }
