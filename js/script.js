@@ -6,17 +6,17 @@
 //     pagination: false
 //   });
 
-  let typed = new Typed(".typed", {
-    strings: [
-      "Fullstack Developer.",
-      "Software Engineer.",
-      "Knowledge Seeker."
-    ],
-    typeSpeed: 100,
-    loop: true,
-    startDelay: 1000,
-    showCursor: false
-  });
+  // let typed = new Typed(".typed", {
+  //   strings: [
+  //     "Fullstack Developer.",
+  //     "Software Engineer.",
+  //     "Knowledge Seeker."
+  //   ],
+  //   typeSpeed: 100,
+  //   loop: true,
+  //   startDelay: 1000,
+  //   showCursor: false
+  // });
 
   $(".owl-carousel").owlCarousel({
     loop: true,
